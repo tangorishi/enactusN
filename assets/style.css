@@ -1,0 +1,35 @@
+.text-primary-600 {
+    color: orange;
+}
+.more-info-section {
+    background-image: linear-gradient(rgba(247, 190, 2, 1), rgba(247, 190, 2, 0.561)), url("../images/enactusworld.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow: hidden;
+  }
+  .more-info-section .img-section{
+    position: relative;
+  }
+  .more-info-section .img-section img{
+    width: 80%;
+  }
+ 
+.nav-icon:hover + .nav-text {
+    color: orange;
+}
+.proof {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(247, 190, 2, 1), rgba(247, 190, 2, 0.561))
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
+    margin: 14px;
+}
