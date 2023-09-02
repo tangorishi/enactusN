@@ -11,12 +11,13 @@
     
     <link href="/dist/output.css" rel="stylesheet" />
     <link rel="stylesheet" href="/assets/style.css" />
+    <!-- <link rel="stylesheet" href="/assets/bootstrap.min.css"> -->
     
     <title>Enactus | MUJ</title>
   </head>
   <body>
     <!-- navbar  starts -->
-    <header>
+    <!-- <header >
         <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
             <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                 <a href="#" class="flex items-center">
@@ -60,7 +61,51 @@
             </div>
         </nav>
         
-    </header>
+    </header> -->
+    
+<nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+  <a href="#" class="flex items-center">
+      <img src="/images/enactusbirdBlacklogo.png" class="h-8 mr-3" alt="Enactus Logo">
+      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Enactus</span>
+  </a>
+  <div class="flex md:order-2">
+    <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" style="background-color: orange;">Events</button>
+
+      <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+  </div>
+  <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+    <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-black bg-orange-100 rounded md:bg-transparent md:text-black-50 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+        </li>
+        <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:text-black-50 md:p-0 md:dark:text-blue-500" onmouseover="this.style.color='orange'" onmouseout="this.style.color='black'">About</a>
+        </li>
+        <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:text-black-50 md:p-0 md:dark:text-blue-500" onmouseover="this.style.color='orange'" onmouseout="this.style.color='black'">Projects</a>
+        </li>
+        <li>
+            <a href="team.html" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:text-black-50 md:p-0 md:dark:text-blue-500" onmouseover="this.style.color='orange'" onmouseout="this.style.color='black'">Team</a>
+        </li>
+        <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:text-black-50 md:p-0 md:dark:text-blue-500" onmouseover="this.style.color='orange'" onmouseout="this.style.color='black'">Contact</a>
+        </li>
+    </ul>
+    
+  
+  
+  
+  </div>
+  </div>
+</nav>
+
      <!-- navbar ends -->
 
     <!-- content starts -->
@@ -385,72 +430,73 @@
             <!-- First Card - Company -->
             <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
                 <h3 class="mb-4 text-2xl font-semibold">Mehul Singhvi</h3>
-                <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Relevant for multiple users, extended & premium support.</p>
+                <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Empowering sustainability through plastic upcycling and environmental education for a cleaner, greener future.</p>
                 <div class="flex justify-center items-baseline my-8">
-                    <span class="mr-2 text-5xl font-extrabold">$99</span>
-                    <span class="text-gray-500 dark:text-gray-400" dark:text-gray-400>/month</span>
+                    <span class="mr-2 text-5xl font-extrabold">Parivartana</span>
+                    <span class="text-gray-500 dark:text-gray-400" dark:text-gray-400></span>
                 </div>
                 <!-- List -->
                 <ul role="list" class="mb-8 space-y-4 text-left">
                     <li class="flex items-center space-x-3">
                         <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Individual configuration</span>
+                        <span>Create eco-friendly products</span>
                     </li>
                     <li class="flex items-center space-x-3">
                         <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>No setup, or hidden fees</span>
+                        <span>Transform non-recyclable plastics.</span>
                     </li>
                     <li class="flex items-center space-x-3">
                         <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Team size: <span class="font-semibold">10 developers</span></span>
+                        <span>Educate on plastic waste impact. </span>
                     </li>
                     <li class="flex items-center space-x-3">
                         <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Premium support: <span class="font-semibold">24 months</span></span>
+                        <span>Convert waste to usable items.</span>
                     </li>
                     <li class="flex items-center space-x-3">
                         <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Free updates: <span class="font-semibold">24 months</span></span>
+                        <span>Promote responsible recycling habits.</span>
                     </li>
                 </ul>
-                <a href="#" class="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
+                <a href="#" style="background-color: orange; color: white;" class="text-white hover:bg-darkorange focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-primary-900">Know More</a>
+
             </div>
             
             <!-- Second Card - Enterprise -->
             <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white mt-6 lg:mt-0">
                 <h3 class="mb-4 text-2xl font-semibold">Dhruv N. Singh</h3>
-                <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best for large scale uses and extended redistribution rights.</p>
+                <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Empowering Women, Bridging Divides, and Catalyzing Positive Change in India through Education and Awareness.</p>
                 <div class="flex justify-center items-baseline my-8">
-                    <span class="mr-2 text-5xl font-extrabold">Parivartana</span>
+                    <span class="mr-2 text-5xl font-extrabold">Dhi</span>
                     <!-- <span class="text-gray-500 dark:text-gray-400">/month</span> -->
                 </div>
                 <!-- List -->
                 <ul role="list" class="mb-8 space-y-4 text-left">
                     <li class="flex items-center space-x-3">
                         <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Individual configuration</span>
+                        <span>Providing essential knowledge.</span>
                     </li>
                     <li class="flex items-center space-x-3">
                         <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>No setup, or hidden fees</span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <!-- Icon -->
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Team size: <span class="font-semibold">100+ developers</span></span>
+                        <span>Bridging disparities in society.</span>
                     </li>
                     <li class="flex items-center space-x-3">
                         <!-- Icon -->
                         <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Premium support: <span class="font-semibold">36 months</span></span>
+                        <span>Empowering through information.</span>
                     </li>
                     <li class="flex items-center space-x-3">
                         <!-- Icon -->
                         <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Free updates: <span class="font-semibold">36 months</span></span>
+                        <span> Promoting female well-being.</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>Driving transformative shifts.</span>
                     </li>
                 </ul>
-                <a href="#" class="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
+                <a href="#" style="background-color: orange; color: white;" class="text-white hover:bg-darkorange focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-primary-900">Know More</a>
             </div>
         </div>
     </div>
@@ -458,7 +504,65 @@
     
 
     <!-- Our Projects ends -->
+   <!-- What do we do starts -->
+    <!-- <section class="common-section pt-4 mt-5 mb-5" id="doings-section">
+      <div class="container text-center fw-bold common-title" data-aos="fade-down-right">
+        <h2 class="common-heading">What are the various<br>activities that we do?</h2>
+        <hr class="w-25 mx-auto ">
+      </div>
+  
+      <div class="container mt-3 mb-5" data-aos="flip-up">
+        <div class="row g-5">
+          <div class="col-xl-6 col-md-12">
+            <div class="d-flex px-3 py-5 shadow">
+              <img src="images/Loving Hands.png" alt="Image" class="d-md-block d-none img-fluid mx-3 " width="100px">
+  
+              <div data-aos="fade-right">
+                <p class="mb-3 fw-bolder text-bg-dark">Create a Better World</p>
+                <p>Enactus empowers student leaders to create sustainable projects that address social challenges,
+                  fostering positive change.</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xl-6 col-md-12">
+            <div class="d-flex px-3 py-5 shadow">
+              <img src="images/Market Analysis.png" alt="Image" class="d-md-block d-none img-fluid mx-3 " width="100px">
+  
+              <div data-aos="fade-left">
+                <p class="mb-3 fw-bolder text-bg-dark">Entrepreneurial Action</p>
+                <p>Enactus empowers students to take entrepreneurial action, addressing social challenges and creating
+                  positive impact worldwide.</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xl-6 col-md-12">
+            <div class="d-flex px-3 py-5 shadow">
+              <img src="images/Brainstorming.png" alt="Image" class="d-md-block d-none img-fluid mx-3 " width="100px">
+  
+              <div data-aos="fade-right">
+                <p class="mb-3 fw-bolder text-bg-dark">Innovation and Creativity</p>
+                <p>Enactus fosters innovation, empowering impactful student-led social entrepreneurship worldwide.</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xl-6 col-md-12">
+            <div class="d-flex px-3 py-5 shadow">
+              <img src="images/Trading Idea.png" alt="Image" class="d-md-block d-none img-fluid mx-3 " width="100px">
+  
+              <div data-aos="fade-left">
+                <p class="mb-3 fw-bolder text-bg-dark">Invest In Students</p>
+                <p>Enactus invests in students, fostering social entrepreneurship for positive global transformation.</p>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div> -->
     
+      <!-- what do we do ends -->
     <!-- Testimonial starts -->
 
     <!-- Testimonial ends  -->
@@ -477,10 +581,10 @@
                                 Enactus fosters a sense of responsibility towards society and equips us with the skills to build a brighter future for all."</p>
                           </blockquote>
                           <figcaption class="flex items-center justify-center mt-6 space-x-3">
-                              <img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture">
+                              <img class="w-6 h-6 rounded-full" src="https://images.prismic.io/ieeec/e186cca5-dd75-4859-b0ee-8e4b88a390e5_1674191983795+-+Vedika+Parwal.jpg?auto=compress,format" alt="profile picture">
                               <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                                  <div class="pr-3 font-medium text-gray-900 dark:text-white">Micheal Gough</div>
-                                  <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">CEO at Google</div>
+                                  <div class="pr-3 font-medium text-gray-900 dark:text-white">Vedika Parwal</div>
+                                  <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">President, Enactus MUJ</div>
                               </div>
                           </figcaption>
                       </figure>
@@ -496,10 +600,10 @@
                             skills but also allowed me to make a tangible difference in the lives of others. It's an experience I'll carry with me throughout my career."</p>
                       </blockquote>
                       <figcaption class="flex items-center justify-center mt-6 space-x-3">
-                          <img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture">
+                          <img class="w-6 h-6 rounded-full" src="https://images.prismic.io/ieeec/42e12e9c-cf59-4f96-b2c9-a41b9a65f630_rishi-fin1.png?auto=compress,format" alt="profile picture">
                           <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                              <div class="pr-3 font-medium text-gray-900 dark:text-white">Micheal Gough</div>
-                              <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">CEO at Google</div>
+                              <div class="pr-3 font-medium text-gray-900 dark:text-white">Rishi Joshi</div>
+                              <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">Joint Technical Head</div>
                           </div>
                       </figcaption>
                       </figure>
@@ -515,10 +619,10 @@
                             Enactus truly fosters a sense of purpose and inspires us to be agents of social transformations."</p>
                       </blockquote>
                       <figcaption class="flex items-center justify-center mt-6 space-x-3">
-                          <img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture">
+                          <img class="w-6 h-6 rounded-full" src="https://images.prismic.io/ieeec/ee2f5d87-fefa-429b-8b6e-99d597b705ee_IMG_20230722_194824+-+Tvisha+Khanna.jpg?auto=compress,format" alt="profile picture">
                           <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                              <div class="pr-3 font-medium text-gray-900 dark:text-white">Micheal Gough</div>
-                              <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">CEO at Google</div>
+                              <div class="pr-3 font-medium text-gray-900 dark:text-white">Tvisha Khanna</div>
+                              <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">Head of Content</div>
                           </div>
                       </figcaption>
                       </figure>
