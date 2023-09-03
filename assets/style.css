@@ -21,9 +21,24 @@
     color: orange;
 }
 .proof {
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(rgba(247, 190, 2, 1), rgba(247, 190, 2, 0.561))
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(247, 190, 2, 1), rgba(247, 190, 2, 0.561)), url("../images/enactusworld.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  overflow: hidden;
+}
+
+@keyframes gradientAnimation {
+  0% {
+      background-position: 0% 0%;
+  }
+  100% {
+      background-position: 100% 100%;
+  }
 }
 body, html {
     margin: 0;
