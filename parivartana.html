@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"
+    rel="stylesheet"
+  />
+  <link href="/dist/output.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="./assets/flowbite-typography-master/src/typography.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Parivartana | Enactus</title>
+</head>
+<body>
+
+    <nav class="glass-navbar bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="index.html" class="flex items-center">
+                <img src="/images/enactusbirdBlacklogo.png" class="h-8 mr-3" alt="Enactus Logo">
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Enactus</span>
+            </a>
+            <div class="flex md:order-2">
+                <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" style="background-color: orange;">Events</button>
+
+                <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox"0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="index.html" class="block py-2 pl-3 pr-4 text-black bg-transparent rounded md:bg-transparent md:text-black-50 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 bg-transparent rounded md:text-black-50 md:p-0 md:dark-text-blue-500" onmouseover="this.style.color='orange'" onmouseout="this.style.color='black'">About</a>
+                    </li>
+                    <li>
+                        <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 bg-transparent rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover-bg-transparent">Projects <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                        </svg></button>
+                        <!-- Dropdown menu -->
+                        <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                                <li>
+                                    <a href="parivartan.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Parivartana</a>
+                                </li>
+                                <li>
+                                    <a href="dhi.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dhi</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="team.html" class="block py-2 pl-3 pr-4 text-gray-900 bg-transparent rounded md:text-black-50 md:p-0 md:dark-text-blue-500" onmouseover="this.style.color='orange'" onmouseout="this.style.color='black'">Team</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 bg-transparent rounded md:text-black-50 md:p-0 md:dark-text-blue-500" onmouseover="this.style.color='orange'" onmouseout="this.style.color='black'">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+<!-- 
+Project Descripion starts -->
+
+<section class="bg-white dark:bg-gray-900 pt-10">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+        <div class="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400">
+            <h2 class="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white" >Problem Statement</h2>
+            <p>Global plastic waste accumulation is a pressing concern, impacting our environment and health. Seven major types of plastic, including PET, HDPE, and dangerous polycarbonates, contribute to this issue. Unfortunately, not all plastics are easily recyclable, with only PET and HDPE commonly accepted. We urgently need alternative solutions 
+                like plastic upcycling to address less recyclable plastics and promote environmental sustainability.</p>
+        </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="bg-white dark:bg-gray-900 ">
+    <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+        <div class="mt-4 md:mt-0">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Project Overview</h2>
+            <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Segregated into three holistic threads locked together, the project "PARIVARTANA" comes together as a whole with an expanded entourage as our backbone. Our project focuses mainly on transforming plastic waste into sustainable, high-quality products. Project Parivartana is more than just an initiative; it represents a movement towards a cleaner and greener future. Through its holistic approach, ‘Parivartana’ seeks to inspire lasting change and set a new paradigm for plastic waste management, forging a path towards a more sustainable and environmentally conscious society.</p>
+            
+        </div>
+        <img class="w-full dark:hidden"  src="/images/parivartan5.jpg" data-aos="fade-right" alt="dashboard image">
+        <!-- <img class="w-full hidden dark:block" src="more-info-section" alt="dashboard image"> -->
+    </div>
+</section>
+
+    <section class="bg-white dark:bg-gray-900">
+        <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+            <img class="w-full dark:hidden pt-10" src="/images/parivartan1.jpg" data-aos="fade-right"  alt="dashboard image">
+            <img class="w-full hidden dark:block" src="" alt="dashboard image">
+            <div class="mt-4 md:mt-0">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Project Details</h2>
+                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">We begin with plastic waste collection by deploying trash bins at places with heavy foot traffic. The second tangent runs along recycling and product manufacturing, particularly products such as tote bags, laundry bags and floor mats. Our project's final arc aims to reach consumers at the very root level by spreading awareness through collaborations with academic institutions and hosting seminars on recycling plastic. We also offer Special DIY (Do-it-yourself) kits to schools aiming to teach students about sustainable product usage and recycling at a tender age. Bringing into the limelight the selfless contributions of individuals that go unrecognized is another important part of our project. Our project addresses Goal 12 and 13 of the UN SDG, which is ‘Responsible Consumption and Production’ and ‘Climate action’ respectively. </p>
+                
+            </div>
+        </div>
+    </section> 
+   
+
+    <section class="bg-white dark:bg-gray-900">
+        <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+            <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Key Activities</h2>
+                <p class="mb-4">Our comprehensive approach to tackling plastic pollution involves hosting seminars, workshops, and educational initiatives to raise awareness, promote waste collection, and emphasize recycling. We aim to incentivize waste collection with user-friendly trash bins while prioritizing sustainability through recycling and eco-friendly product manufacturing. Additionally, we're committed to educating the next generation about plastic's harmful impacts through DIY kits and organizing events to empower participants with the knowledge and skills needed for effective waste management.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-4 mt-8">
+                <img class="w-full rounded-lg" src="/images/parivartan3.jpg" alt="office content 1">
+                <img class="mt-4 w-full lg:mt-10 rounded-lg" src="/images/parivartan2.jpg" alt="office content 2">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+            <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+                <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">MISSION AND VISION</h2>
+                <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">Mission fuels purpose, while vision paints our destiny with clarity.</p>
+            </div> 
+            <div class="grid gap-8 lg:grid-cols-2">
+                <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    <div class="flex justify-between items-center mb-5 text-gray-500">
+                        <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
+                            Mission
+                        </span>
+                        
+                    </div>
+                    <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Educate, repurpose plastic waste, promote responsible segregation.</a></h2>
+                    <p class="mb-5 font-light text-gray-500 dark:text-gray-400"> Our mission is to create high-quality sustainable products catering to the market demand using innovative plastic upcycling techniques while focusing our attention on not-easily recyclable plastic. </p>
+                    <div class="flex justify-between items-center">
+                        
+                        
+                    </div>
+                </article> 
+                <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    <div class="flex justify-between items-center mb-5 text-gray-500">
+                        <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
+                            Vision
+                        </span>
+                        
+                    </div>
+                    <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Create sustainable products from challenging non-recyclable plastic.</a></h2>
+                    <p class="mb-5 font-light text-gray-500 dark:text-gray-400">We plan to reach out to a larger audience by spreading awareness and educating about the dire consequences of plastic waste to future humankind. Through this, we envision a future with reduced plastic pollution through plastic waste being repurposed into daily usage products and a responsible waste segregation model implemented in every household.</p>
+                    <div class="flex justify-between items-center">
+                        
+                        
+                    </div>
+                </article>                  
+            </div>  
+        </div>
+      </section>
+
+    <!-- Project Descripion ends -->
+
+
+
+
+
+    <!-- Footer starts -->
+    <footer style="background-color: black;" class="dark:bg-gray-900">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="#" class="flex items-center">
+                        <img src="./images/enacLogo.webp" class="mr-3 h-6 sm:h-9" alt="Enactus Logo" />
+                        <span style="color: white;" class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Enactus</span>
+                    </a>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div>
+                        <h2 style="color: white;" class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Explore</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a style="color: white;" href="team.html" class="hover:underline">Team</a>
+                            </li>
+                            <li>
+                                <a style="color: white;" href="https://tailwindcss.com/" class="hover:underline">Projects</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 style="color: white;" class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a style="color: white;" href="https://instagram.com/enactus__muj?igshid=MzRlODBiNWFlZA==" target="_blank" class="hover:underline">Instagram</a>
+                            </li>
+                            <li>
+                                <a style="color: white;" href="https://www.linkedin.com/company/enactus-manipal-university-jaipur/" target="_blank" class="hover:underline">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                      <h2 style="color: white;" class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
+                      <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                          <li class="mb-4">
+                              <a style="color: white;" href="tel:+919810835827">Vedika Parwal: +91 98108 35827</a>
+                          </li>
+                          <li>
+                              <a style="color: white;" href="tel:+919431353607" >Musu Priyam: +91 94313 53607</a>
+                          </li>
+                      </ul>
+                      
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <span style="color: white;" class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#" class="hover:underline"> Enactus™</a>. All Rights Reserved.
+                </span>
+                <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
+                  
+                    
+                    <a href="https://instagram.com/enactus__muj?igshid=MzRlODBiNWFlZA==" target="_blank" style="color: white;" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                      <box-icon class="bx-tada-hover" name='instagram' type='logo' animation="tada" color='white'></box-icon>
+                      <span class="sr-only">Instagram page</span>
+                  </a>
+                  <a href="https://www.linkedin.com/company/enactus-manipal-university-jaipur/" target="_blank" style="color: white;" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                    <box-icon class="bx-tada-hover" name='linkedin-square' type='logo' animation="tada" color='white'></box-icon>
+                    <span class="sr-only">LinkedIn page</span>
+                </a>
+                
+                    
+                  
+                  
+                    
+                  
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- Footer ends -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+      <script src="/assets/tailwind.config.js"></script>
+      <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+      <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+</body>
+</html>

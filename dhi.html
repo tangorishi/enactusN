@@ -9,181 +9,247 @@
   />
   <link href="/dist/output.css" rel="stylesheet" />
   <link rel="stylesheet" href="./assets/style.css">
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
   <link rel="stylesheet" href="./assets/flowbite-typography-master/src/typography.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Parivartan | Enactus</title>
+ <title>Dhi | Enactus</title>
+
+
 </head>
 <body>
+    <!-- Nav starts -->
+    <nav class="glass-navbar bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="index.html" class="flex items-center">
+                <img src="/images/enactusbirdBlacklogo.png" class="h-8 mr-3" alt="Enactus Logo">
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Enactus</span>
+            </a>
+            <div class="flex md:order-2">
+                <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" style="background-color: orange;">Events</button>
 
-      
-<nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="index.html" class="flex items-center">
-        <img src="/images/enactusbirdBlacklogo.png" class="h-8 mr-3" alt="Enactus Logo">
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Enactus</span>
-    </a>
-    <div class="flex md:order-2">
-      <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" style="background-color: orange;">Events</button>
-  
-        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
-          <span class="sr-only">Open main menu</span>
-          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox"0 0 17 14">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-          </svg>
-      </button>
-    </div>
-    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-        <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-          <li>
-              <a href="#" class="block py-2 pl-3 pr-4 text-black bg-orange-100 rounded md:bg-transparent md:text-black-50 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
-          </li>
-          <li>
-              <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:text-black-50 md:p-0 md:dark:text-blue-500" onmouseover="this.style.color='orange'" onmouseout="this.style.color='black'">About</a>
-          </li>
-          
-          <li>
-            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Projects <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-  </svg></button>
-            <!-- Dropdown menu -->
-            <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-                <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
-                  <li>
-                    <a href="parivartan.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Parivartana</a>
-                  </li>
-                  <li>
-                    <a href="dhi.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dhi</a>
-                  </li>
-                 
-                </ul>
-               
+                <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox"0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+                </button>
             </div>
-        </li>
-  
-  
-  
-          <li>
-              <a href="team.html" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:text-black-50 md:p-0 md:dark:text-blue-500" onmouseover="this.style.color='orange'" onmouseout="this.style.color='black'">Team</a>
-          </li>
-          <li>
-              <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:text-black-50 md:p-0 md:dark:text-blue-500" onmouseover="this.style.color='orange'" onmouseout="this.style.color='black'">Contact</a>
-          </li>
-      </ul>
-      
-    
-    
-    
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="index.html" class="block py-2 pl-3 pr-4 text-black bg-transparent rounded md:bg-transparent md:text-black-50 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 bg-transparent rounded md:text-black-50 md:p-0 md:dark-text-blue-500" onmouseover="this.style.color='orange'" onmouseout="this.style.color='black'">About</a>
+                    </li>
+                    <li>
+                        <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 bg-transparent rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover-bg-transparent">Projects <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                        </svg></button>
+                        <!-- Dropdown menu -->
+                        <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                                <li>
+                                    <a href="parivartana.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Parivartana</a>
+                                </li>
+                                <li>
+                                    <a href="dhi.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dhi</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="team.html" class="block py-2 pl-3 pr-4 text-gray-900 bg-transparent rounded md:text-black-50 md:p-0 md:dark-text-blue-500" onmouseover="this.style.color='orange'" onmouseout="this.style.color='black'">Team</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 bg-transparent rounded md:text-black-50 md:p-0 md:dark-text-blue-500" onmouseover="this.style.color='orange'" onmouseout="this.style.color='black'">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+<!-- Nav ends -->
+
+<!-- 
+Project Descripion starts -->
+
+<section class="bg-white dark:bg-gray-900 pt-10">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+        <div class="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400">
+            <h2 class="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white" >Problem Statement</h2>
+            <p>Across rural and urban areas, a lack of awareness about government schemes leaves many residents without access to vital resources. Insufficient financial literacy perpetuates poverty cycles, while female sanitation remains a neglected issue, impacting women's health. 
+                Bridging the rural-urban information gap is crucial for comprehensive development.</p>
+        </div>
     </div>
+  </section>
+
+
+
+  <section class="bg-white dark:bg-gray-900 ">
+    <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+        <div class="mt-4 md:mt-0">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Project Details</h2>
+            <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Through interactive and educational video content on financial literacy, we help women gain greater control over their own lives, boost their self-esteem, and provide them with equal standing in family and community decision-making. The e-app proposes an easily navigable UI and a regional language translation facility to help women understand and familiarize themselves with the ongoing Government schemes and how to utilize them to their best use. Exploring new healthcare, sanitation and hygiene opportunities through the revenue collected during the implementation of our business, we aim to increase the reach of our target audience. Offline events such as initiating discussions at the root level to gain trust and establish understanding and cooperation to further a common cause are another facet of our project.</p>
+            
+        </div>
+        <img class="w-full dark:hidden"  src="images/dhi4.jpg" data-aos="fade-right" alt="dashboard image">
+        <!-- <img class="w-full hidden dark:block" src="more-info-section" alt="dashboard image"> -->
     </div>
-  </nav>
+</section>
+
+
     <section class="bg-white dark:bg-gray-900">
         <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-            <img class="w-full dark:hidden" src="https://imgs.search.brave.com/wzqaqXF50TtBLSeHxeYO3jvvm4Pf1r2eGP6Re6EpmX8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jaW1h/Z2VzLm1pbGFhcC5v/cmcvbWlsYWFwL2lt/YWdlL3VwbG9hZC9j/X2ZpbGwsZ19mYWNl/cyxoXzQ1Mix3XzYw/My92MTU2NDkxOTYz/MC9wcm9kdWN0aW9u/L2ltYWdlcy9jYW1w/YWlnbi85NDgwOS9F/bmFjdHVzQXNob2th/X3Q2N2tyc18xNTY0/OTE5OTg3LmpwZw" data-aos="fade-right"  alt="dashboard image">
+            <img class="w-full dark:hidden pt-10" src="/images/dhi3.jpg" data-aos="fade-right"  alt="dashboard image">
             <img class="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image">
             <div class="mt-4 md:mt-0">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Lorem ipsum dolor sit amet.</h2>
-                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores cum maxime asperiores consequuntur. Eveniet nesciunt mollitia, nostrum tempora odit, in exercitationem totam quae quidem eos minus amet?</p>
-                <a href="#" class="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
-                    Get started
-                    <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                </a>
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Project Overview</h2>
+                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">The Sanskrit word ‘Dhi’ refers to several meanings all about intellect, reason, wisdom, thought, and discernment i.e., all cognitive processes of the mind. With a similar goal to achieve, our Project Dhi aims to target and assist female empowerment by ascertaining their will to understand, reason and achieve the life they desire. Through the development and implementation of a mobile application, we aim to cater to both rural and urban areas by addressing issues such as feminine hygiene, promoting financial literacy, and raising awareness about government schemes tailored for women.</p>
+                
             </div>
         </div>
     </section> 
-    <section class="bg-white dark:bg-gray-900 ">
-        <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-            <div class="mt-4 md:mt-0">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Lorem, ipsum dolor.</h2>
-                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Enactus is down for planned maintenance. We'll be back with the latest components and sections this week. Follow us on Twitter or our blog for latest updates.</p>
-                
+    
+    <section class="bg-white dark:bg-gray-900">
+        <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+            <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Key Activities</h2>
+                <p class="mb-4">Our project involves creating and curating educational content on government schemes, financial literacy, and female sanitation in collaboration with experts. We aim to design a user-friendly app with a responsive interface, cater to local languages, and adapt content for diverse audiences. The app development includes personalized learning features, quizzes, and real-time tracking. Rigorous testing and quality assurance ensure a bug-free, optimized, and performance-efficient user experience across different devices.</p>
             </div>
-            <img class="w-full dark:hidden"  src="https://imgs.search.brave.com/ZTIp1-LRdSNJXmO83-reZaCRc8czUXuSen8_DlIexj4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9saXZl/LnN0YXRpY2ZsaWNr/ci5jb20vMjg3Ny8x/MjIyMjg0NzI1NF84/YTQ4YzQ4NzJhLmpw/Zw" data-aos="fade-right" alt="dashboard image">
-            <!-- <img class="w-full hidden dark:block" src="more-info-section" alt="dashboard image"> -->
+            <div class="grid grid-cols-2 gap-4 mt-8">
+                <img class="w-full rounded-lg" src="/images/dhi1.jpg" alt="office content 1">
+                <img class="mt-4 w-full lg:mt-10 rounded-lg" src="/images/dhi logo .jpg" alt="office content 2">
+            </div>
         </div>
     </section>
-  <!-- footer starts -->
-  <footer style="background-color: black;" class="dark:bg-gray-900">
-      <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-          <div class="md:flex md:justify-between">
-              <div class="mb-6 md:mb-0">
-                  <a href="#" class="flex items-center">
-                      <img src="./images/enacLogo.webp" class="mr-3 h-6 sm:h-9" alt="Enactus Logo" />
-                      <span style="color: white;" class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Enactus</span>
-                  </a>
-              </div>
-              <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                  <div>
-                      <h2 style="color: white;" class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Explore</h2>
-                      <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                          <li class="mb-4">
-                              <a style="color: white;" href="team.html" class="hover:underline">Team</a>
-                          </li>
-                          <li>
-                              <a style="color: white;" href="https://tailwindcss.com/" class="hover:underline">Projects</a>
-                          </li>
-                          
-                      </ul>
-                  </div>
-                  <div>
-                      <h2 style="color: white;" class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
-                      <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                          <li class="mb-4">
-                              <a style="color: white;" href="https://instagram.com/enactus__muj?igshid=MzRlODBiNWFlZA==" target="_blank" class="hover:underline">Instagram</a>
-                          </li>
-                          <li>
-                              <a style="color: white;" href="https://www.linkedin.com/company/enactus-manipal-university-jaipur/" target="_blank" class="hover:underline">LinkedIn</a>
-                          </li>
-                      </ul>
-                  </div>
-                  <div>
-                    <h2 style="color: white;" class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
-                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                        <li class="mb-4">
-                            <a style="color: white;" href="tel:+919810835827">Vedika Parwal: +91 98108 35827</a>
-                        </li>
-                        <li>
-                            <a style="color: white;" href="tel:+919431353607" >Musu Priyam: +91 94313 53607</a>
-                        </li>
-                    </ul>
-                    
-                  </div>
-              </div>
-          </div>
-          <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-          <div class="sm:flex sm:items-center sm:justify-between">
-              <span style="color: white;" class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#" class="hover:underline"> Enactus™</a>. All Rights Reserved.
-              </span>
-              <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
-                <!-- <a href="#" style="color: white;" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                  <box-icon class="bx-tada-hover" name='facebook' type='logo' animation="tada" color='white'></box-icon>
-                  <span class="sr-only">Facebook page</span>
-              </a> -->
-              
-                  
-                  <a href="https://instagram.com/enactus__muj?igshid=MzRlODBiNWFlZA==" target="_blank" style="color: white;" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                    <box-icon class="bx-tada-hover" name='instagram' type='logo' animation="tada" color='white'></box-icon>
-                    <span class="sr-only">Instagram page</span>
-                </a>
-                <a href="https://www.linkedin.com/company/enactus-manipal-university-jaipur/" target="_blank" style="color: white;" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                  <box-icon class="bx-tada-hover" name='linkedin-square' type='logo' animation="tada" color='white'></box-icon>
-                  <span class="sr-only">LinkedIn page</span>
-              </a>
-              
-                  
-                
-                
-                  
-                
-                  
-              </div>
-          </div>
-      </div>
-  </footer>
 
+
+    <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+            <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+                <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">MISSION AND VISION</h2>
+                <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">Mission fuels purpose, while vision paints our destiny with clarity.</p>
+            </div> 
+            <div class="grid gap-8 lg:grid-cols-2">
+                <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    <div class="flex justify-between items-center mb-5 text-gray-500">
+                        <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
+                            Mission
+                        </span>
+                        
+                    </div>
+                    <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">DHI empowers India for equitable prosperity.</a></h2>
+                    <p class="mb-5 font-light text-gray-500 dark:text-gray-400"> Our mission at DHI is to empower individuals across rural and urban India with the knowledge and skills they need to transform their lives. We are committed to bridging socio-economic gaps by providing accessible and 
+                        comprehensive educational content on government schemes, financial literacy, and female sanitation. Through DHI, we aim to uplift communities,
+                         promote informed decision-making, and foster holistic development that leads to a more equitable and prosperous society. </p>
+                    
+                </article> 
+                <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    <div class="flex justify-between items-center mb-5 text-gray-500">
+                        <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
+                            Vision
+                        </span>
+                        
+                    </div>
+                    <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Fostering unity for a stronger India.</a></h2>
+                    <p class="mb-5 font-light text-gray-500 dark:text-gray-400">Our vision is to create a future where every individual, regardless of their background, has the tools and resources to thrive. We envision a society where informed citizens actively participate in shaping 
+                        their destinies, where financial well-being is accessible to all, and where proper health and hygiene practices empower women to lead healthier and more fulfilling lives. DHI aspires to be the catalyst for positive change, driving a transformative 
+                        shift in education that unlocks opportunities, enhances livelihoods, and builds a stronger, united India</p>
+                   
+                </article>                  
+            </div>  
+        </div>
+      </section>
+    
+
+    <!-- Project Descripion ends -->
+
+
+
+
+
+    <!-- Footer starts -->
+    <footer style="background-color: black;" class="dark:bg-gray-900">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="#" class="flex items-center">
+                        <img src="./images/enacLogo.webp" class="mr-3 h-6 sm:h-9" alt="Enactus Logo" />
+                        <span style="color: white;" class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Enactus</span>
+                    </a>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div>
+                        <h2 style="color: white;" class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Explore</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a style="color: white;" href="team.html" class="hover:underline">Team</a>
+                            </li>
+                            <li>
+                                <a style="color: white;" href="https://tailwindcss.com/" class="hover:underline">Projects</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 style="color: white;" class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a style="color: white;" href="https://instagram.com/enactus__muj?igshid=MzRlODBiNWFlZA==" target="_blank" class="hover:underline">Instagram</a>
+                            </li>
+                            <li>
+                                <a style="color: white;" href="https://www.linkedin.com/company/enactus-manipal-university-jaipur/" target="_blank" class="hover:underline">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                      <h2 style="color: white;" class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
+                      <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                          <li class="mb-4">
+                              <a style="color: white;" href="tel:+919810835827">Vedika Parwal: +91 98108 35827</a>
+                          </li>
+                          <li>
+                              <a style="color: white;" href="tel:+919431353607" >Musu Priyam: +91 94313 53607</a>
+                          </li>
+                      </ul>
+                      
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <span style="color: white;" class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#" class="hover:underline"> Enactus™</a>. All Rights Reserved.
+                </span>
+                <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
+                  
+                    
+                    <a href="https://instagram.com/enactus__muj?igshid=MzRlODBiNWFlZA==" target="_blank" style="color: white;" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                      <box-icon class="bx-tada-hover" name='instagram' type='logo' animation="tada" color='white'></box-icon>
+                      <span class="sr-only">Instagram page</span>
+                  </a>
+                  <a href="https://www.linkedin.com/company/enactus-manipal-university-jaipur/" target="_blank" style="color: white;" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                    <box-icon class="bx-tada-hover" name='linkedin-square' type='logo' animation="tada" color='white'></box-icon>
+                    <span class="sr-only">LinkedIn page</span>
+                </a>
+                
+                    
+                  
+                  
+                    
+                  
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- Footer ends -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
       <script src="/assets/tailwind.config.js"></script>
       <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+      <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
 </body>
 </html>
