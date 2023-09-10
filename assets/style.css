@@ -96,3 +96,8 @@ a:hover i {
   transform: scale(1.1) translateX(10px); 
 }
 
+.flex .justify-center .items-baseline .mr-2 {
+    margin-right: 16px; 
+}
+
+
